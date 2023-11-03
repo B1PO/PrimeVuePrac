@@ -58,7 +58,6 @@ export default {
           <div class="flex flex-column gap-2 col-4">
             <label for="name1">Nombre(s):</label>
             <InputText id="name1" type="text" v-model="nombre" />
-            <span v-if="nombreVacio" class="error-message">Se requiere el nombre</span>
           </div>
           <div class="flex flex-column gap-2 col-4">
             <label for="appat1">Apellido paterno</label>
@@ -70,7 +69,7 @@ export default {
           </div>
           </div>
 
-          <div class="field">
+          <div class="field  mt-3">
             <label for="fechaNacimiento">Fecha de nacimiento <span v-if="fechaNacimientoInvalida" class="text-danger">Campo requerido</span></label>
             <Calendar id="fechaNacimiento" v-model="fechaNacimiento" dateFormat="dd/mm/yy" :showIcon="true" />
           </div>
