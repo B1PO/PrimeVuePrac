@@ -31,7 +31,7 @@
             </div>
 
             <div class="card">
-                <h3>Información reelevante</h3>
+                <h3>Información relevante</h3>
                 <p>
                     El error 429 que se presenta con la notificación toast al intentar acceder a la APIs disponibles en la URL https://dummy.restapiexample.com es generalmente causado por exceder el límite de solicitudes permitidas en un periodo de tiempo
                     determinado. 
