@@ -12,7 +12,8 @@ const model = ref([
         label: 'Prácticas',
         items: [
             { label: 'Formulario RFC', icon: 'pi pi-fw pi-id-card', to: '/uikit/formlayout' },
-            { label: 'POS', icon: 'pi pi-fw pi-cart-plus', to: '/uikit/input' }
+            { label: 'POS', icon: 'pi pi-fw pi-cart-plus', to: '/uikit/input' },
+            { label: 'API', icon: 'pi pi-fw pi-users', to: '/uikit/api' }
         ]
 
     },

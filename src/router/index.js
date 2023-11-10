@@ -22,6 +22,11 @@ const router = createRouter({
                     path: '/uikit/input',
                     name: 'input',
                     component: () => import('@/views/uikit/Input.vue')
+                },
+                {
+                    path: '/uikit/API',
+                    name: 'api',
+                    component: () => import('@/views/uikit/API.vue')
                 }
             ]
         },
