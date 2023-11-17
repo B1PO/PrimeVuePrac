@@ -27,6 +27,11 @@ const router = createRouter({
                     path: '/uikit/API',
                     name: 'api',
                     component: () => import('@/views/uikit/API.vue')
+                },
+                {
+                    path: '/uikit/Chart',
+                    name: 'graphic',
+                    component: () => import('@/views/uikit/Chart.vue')
                 }
             ]
         },
